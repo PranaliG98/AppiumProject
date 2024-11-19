@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Appium_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Appium Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Appium_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\91844\eclipse-workspace\appiumtest\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Appium_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Appium_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Appium_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Appium_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Appium_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Appium_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 10 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Appium_Test_Suite" class="hide-methods failed suite-Appium_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Appium_Test_Suite -->
+                      <a href="#" panel-name="suite-Appium_Test_Suite" class="show-methods failed suite-Appium_Test_Suite"> (show)</a> <!-- show-methods failed suite-Appium_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Appium_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.AddToCartTest" class="method navigator-link" hash-for-method="addToCartButtonVisible">addToCartButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.AddToCartTest" class="method navigator-link" hash-for-method="addingToCart">addingToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.AddToCartTest" class="method navigator-link" hash-for-method="changeQuantity">changeQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.RestuarantSearchTest" class="method navigator-link" hash-for-method="testCaseSensitiveSearchUpdates">testCaseSensitiveSearchUpdates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.FoodSearchTest" class="method navigator-link" hash-for-method="testCaseSensitiveSearchUpdates">testCaseSensitiveSearchUpdates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.FoodSearchTest" class="method navigator-link" hash-for-method="testDynamicSearchUpdates">testDynamicSearchUpdates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.RestuarantSearchTest" class="method navigator-link" hash-for-method="testDynamicSearchUpdates">testDynamicSearchUpdates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.FoodSearchTest" class="method navigator-link" hash-for-method="testValidSearchResults">testValidSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.RestuarantSearchTest" class="method navigator-link" hash-for-method="testValidSearchResults">testValidSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.AddToCartTest" class="method navigator-link" hash-for-method="verifyCheckOut">verifyCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Appium_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Appium_Test_Suite" class="hide-methods passed suite-Appium_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Appium_Test_Suite -->
+                      <a href="#" panel-name="suite-Appium_Test_Suite" class="show-methods passed suite-Appium_Test_Suite"> (show)</a> <!-- show-methods passed suite-Appium_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Appium_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.LoginTest" class="method navigator-link" hash-for-method="testEmptyFields">testEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.LoginTest" class="method navigator-link" hash-for-method="testIncorrectCredentials">testIncorrectCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.LoginTest" class="method navigator-link" hash-for-method="testNoPassword">testNoPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.FoodSearchTest" class="method navigator-link" hash-for-method="testNoResultsMessage">testNoResultsMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.RestuarantSearchTest" class="method navigator-link" hash-for-method="testNoResultsMessage">testNoResultsMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.FoodSearchTest" class="method navigator-link" hash-for-method="testSearchBarInput">testSearchBarInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.RestuarantSearchTest" class="method navigator-link" hash-for-method="testSearchBarInput">testSearchBarInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.RestuarantSearchTest" class="method navigator-link" hash-for-method="testSearchBarPresence">testSearchBarPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.FoodSearchTest" class="method navigator-link" hash-for-method="testSearchBarPresence">testSearchBarPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="pranaligondchawar.appiumtest.LoginTest" class="method navigator-link" hash-for-method="testSuccessfulLogin">testSuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Appium_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Appium_Test_Suite" class="panel Appium_Test_Suite">
+          <div class="suite-Appium_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pranaligondchawar.appiumtest.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartButtonVisible">
+                  </a> <!-- addToCartButtonVisible -->
+                  <span class="method-name">addToCartButtonVisible</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.view.View[@content-desc=&quot;results found&quot;] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 7a71ec1b-34e2-4c5c-af29-68860be4e512
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.AddToCartTest.searchFoodItem(AddToCartTest.java:117)
+	at pranaligondchawar.appiumtest.AddToCartTest.addToCartButtonVisible(AddToCartTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Add cart button is visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingToCart">
+                  </a> <!-- addingToCart -->
+                  <span class="method-name">addingToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[@content-desc=&quot;Add To Cart&quot;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 7a71ec1b-34e2-4c5c-af29-68860be4e512
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.AddToCartTest.addingToCart(AddToCartTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify item added to cart and checkout button is visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeQuantity">
+                  </a> <!-- changeQuantity -->
+                  <span class="method-name">changeQuantity</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [7a71ec1b-34e2-4c5c-af29-68860be4e512, findElement {value=//android.widget.ImageView[contains(@content-desc,&quot;Cake&quot;)]/android.view.View[2], using=xpath}]
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 7a71ec1b-34e2-4c5c-af29-68860be4e512
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pranaligondchawar.appiumtest.AddToCartTest.changeQuantity(AddToCartTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify if quantity can be increased and decreased)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckOut">
+                  </a> <!-- verifyCheckOut -->
+                  <span class="method-name">verifyCheckOut</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[@content-desc=&quot;Proceed to Checkout&quot;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 7a71ec1b-34e2-4c5c-af29-68860be4e512
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.AddToCartTest.verifyCheckOut(AddToCartTest.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify checkout page and confirm order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-failed -->
+          <div class="suite-Appium_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pranaligondchawar.appiumtest.RestuarantSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSensitiveSearchUpdates">
+                  </a> <!-- testCaseSensitiveSearchUpdates -->
+                  <span class="method-name">testCaseSensitiveSearchUpdates</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //android.widget.ImageView[@content-desc] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2bada4ec-d131-423f-92b6-ec9507c33e49
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.RestuarantSearchTest.testCaseSensitiveSearchUpdates(RestuarantSearchTest.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicSearchUpdates">
+                  </a> <!-- testDynamicSearchUpdates -->
+                  <span class="method-name">testDynamicSearchUpdates</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //android.widget.ImageView[@content-desc] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2bada4ec-d131-423f-92b6-ec9507c33e49
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.RestuarantSearchTest.testDynamicSearchUpdates(RestuarantSearchTest.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSearchResults">
+                  </a> <!-- testValidSearchResults -->
+                  <span class="method-name">testValidSearchResults</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //android.widget.ImageView[@content-desc] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2bada4ec-d131-423f-92b6-ec9507c33e49
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.RestuarantSearchTest.testValidSearchResults(RestuarantSearchTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-failed -->
+          <div class="suite-Appium_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pranaligondchawar.appiumtest.FoodSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSensitiveSearchUpdates">
+                  </a> <!-- testCaseSensitiveSearchUpdates -->
+                  <span class="method-name">testCaseSensitiveSearchUpdates</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //android.widget.ImageView[@content-desc] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 60d6d2b1-f25a-4bb7-9ecf-6dfb9be79606
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.FoodSearchTest.testCaseSensitiveSearchUpdates(FoodSearchTest.java:96)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDynamicSearchUpdates">
+                  </a> <!-- testDynamicSearchUpdates -->
+                  <span class="method-name">testDynamicSearchUpdates</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //android.widget.ImageView[@content-desc] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 60d6d2b1-f25a-4bb7-9ecf-6dfb9be79606
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.FoodSearchTest.testDynamicSearchUpdates(FoodSearchTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidSearchResults">
+                  </a> <!-- testValidSearchResults -->
+                  <span class="method-name">testValidSearchResults</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //android.widget.ImageView[@content-desc] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:app: C:\Users\91844\eclipse-work..., appium:appPackage: com.tastefood.mobileapp2, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\91844\eclipse-work..., autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel35Pranali, platformName: ANDROID}, appium:deviceApiLevel: 35, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 15, appium:statBarHeight: 118, appium:takesScreenshot: true, appium:viewportRect: {height: 2282, left: 0, top: 118, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 60d6d2b1-f25a-4bb7-9ecf-6dfb9be79606
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pranaligondchawar.appiumtest.FoodSearchTest.testValidSearchResults(FoodSearchTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-failed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pranaligondchawar.appiumtest.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyFields">
+                  </a> <!-- testEmptyFields -->
+                  <span class="method-name">testEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIncorrectCredentials">
+                  </a> <!-- testIncorrectCredentials -->
+                  <span class="method-name">testIncorrectCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoPassword">
+                  </a> <!-- testNoPassword -->
+                  <span class="method-name">testNoPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogin">
+                  </a> <!-- testSuccessfulLogin -->
+                  <span class="method-name">testSuccessfulLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pranaligondchawar.appiumtest.RestuarantSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoResultsMessage">
+                  </a> <!-- testNoResultsMessage -->
+                  <span class="method-name">testNoResultsMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBarInput">
+                  </a> <!-- testSearchBarInput -->
+                  <span class="method-name">testSearchBarInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBarPresence">
+                  </a> <!-- testSearchBarPresence -->
+                  <span class="method-name">testSearchBarPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pranaligondchawar.appiumtest.FoodSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoResultsMessage">
+                  </a> <!-- testNoResultsMessage -->
+                  <span class="method-name">testNoResultsMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBarInput">
+                  </a> <!-- testSearchBarInput -->
+                  <span class="method-name">testSearchBarInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBarPresence">
+                  </a> <!-- testSearchBarPresence -->
+                  <span class="method-name">testSearchBarPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+        </div> <!-- panel Appium_Test_Suite -->
+        <div panel-name="test-xml-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91844\eclipse-workspace\appiumtest\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Appium Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Appium Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pranaligondchawar.appiumtest.LoginTest&quot;/&gt;
+      &lt;class name=&quot;pranaligondchawar.appiumtest.FoodSearchTest&quot;/&gt;
+      &lt;class name=&quot;pranaligondchawar.appiumtest.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;pranaligondchawar.appiumtest.RestuarantSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Appium Tests --&gt;
+&lt;/suite&gt; &lt;!-- Appium Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Appium Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Appium Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Appium Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Appium Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Appium_Test_Suite');
+function tableData_Appium_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addToCartButtonVisible')
+data.setCell(0, 2, 'pranaligondchawar.appiumtest.AddToCartTest')
+data.setCell(0, 3, 19466);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCaseSensitiveSearchUpdates')
+data.setCell(1, 2, 'pranaligondchawar.appiumtest.RestuarantSearchTest')
+data.setCell(1, 3, 17101);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDynamicSearchUpdates')
+data.setCell(2, 2, 'pranaligondchawar.appiumtest.RestuarantSearchTest')
+data.setCell(2, 3, 16359);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDynamicSearchUpdates')
+data.setCell(3, 2, 'pranaligondchawar.appiumtest.FoodSearchTest')
+data.setCell(3, 3, 15371);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCaseSensitiveSearchUpdates')
+data.setCell(4, 2, 'pranaligondchawar.appiumtest.FoodSearchTest')
+data.setCell(4, 3, 15253);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testValidSearchResults')
+data.setCell(5, 2, 'pranaligondchawar.appiumtest.FoodSearchTest')
+data.setCell(5, 3, 15163);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testValidSearchResults')
+data.setCell(6, 2, 'pranaligondchawar.appiumtest.RestuarantSearchTest')
+data.setCell(6, 3, 14859);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSuccessfulLogin')
+data.setCell(7, 2, 'pranaligondchawar.appiumtest.LoginTest')
+data.setCell(7, 3, 14598);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testNoPassword')
+data.setCell(8, 2, 'pranaligondchawar.appiumtest.LoginTest')
+data.setCell(8, 3, 10578);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testEmptyFields')
+data.setCell(9, 2, 'pranaligondchawar.appiumtest.LoginTest')
+data.setCell(9, 3, 10515);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testIncorrectCredentials')
+data.setCell(10, 2, 'pranaligondchawar.appiumtest.LoginTest')
+data.setCell(10, 3, 10496);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCheckOut')
+data.setCell(11, 2, 'pranaligondchawar.appiumtest.AddToCartTest')
+data.setCell(11, 3, 10403);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addingToCart')
+data.setCell(12, 2, 'pranaligondchawar.appiumtest.AddToCartTest')
+data.setCell(12, 3, 10228);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testNoResultsMessage')
+data.setCell(13, 2, 'pranaligondchawar.appiumtest.RestuarantSearchTest')
+data.setCell(13, 3, 6507);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testNoResultsMessage')
+data.setCell(14, 2, 'pranaligondchawar.appiumtest.FoodSearchTest')
+data.setCell(14, 3, 5804);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSearchBarInput')
+data.setCell(15, 2, 'pranaligondchawar.appiumtest.FoodSearchTest')
+data.setCell(15, 3, 4084);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSearchBarInput')
+data.setCell(16, 2, 'pranaligondchawar.appiumtest.RestuarantSearchTest')
+data.setCell(16, 3, 3206);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSearchBarPresence')
+data.setCell(17, 2, 'pranaligondchawar.appiumtest.FoodSearchTest')
+data.setCell(17, 3, 175);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSearchBarPresence')
+data.setCell(18, 2, 'pranaligondchawar.appiumtest.RestuarantSearchTest')
+data.setCell(18, 3, 170);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'changeQuantity')
+data.setCell(19, 2, 'pranaligondchawar.appiumtest.AddToCartTest')
+data.setCell(19, 3, 99);
+window.suiteTableData['Appium_Test_Suite']= { tableData: data, tableDiv: 'times-div-Appium_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Appium_Test_Suite">
+              </div> <!-- times-div-Appium_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Appium Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pranaligondchawar.appiumtest.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEmptyFields</span>
+                <span class="method-start">44314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNoPassword</span>
+                <span class="method-start">54838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIncorrectCredentials</span>
+                <span class="method-start">65418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogin</span>
+                <span class="method-start">75916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90517 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pranaligondchawar.appiumtest.FoodSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91753 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBarPresence</span>
+                <span class="method-start">136547 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchBarInput</span>
+                <span class="method-start">136728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidSearchResults</span>
+                <span class="method-start">140816 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNoResultsMessage</span>
+                <span class="method-start">155999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCaseSensitiveSearchUpdates</span>
+                <span class="method-start">161805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDynamicSearchUpdates</span>
+                <span class="method-start">177062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192437 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pranaligondchawar.appiumtest.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">193506 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addToCartButtonVisible</span>
+                <span class="method-start">237335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addingToCart</span>
+                <span class="method-start">256805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changeQuantity</span>
+                <span class="method-start">267034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCheckOut</span>
+                <span class="method-start">267135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">277544 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pranaligondchawar.appiumtest.RestuarantSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">278378 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBarPresence</span>
+                <span class="method-start">324715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchBarInput</span>
+                <span class="method-start">324888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidSearchResults</span>
+                <span class="method-start">328098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNoResultsMessage</span>
+                <span class="method-start">342960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCaseSensitiveSearchUpdates</span>
+                <span class="method-start">349469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDynamicSearchUpdates</span>
+                <span class="method-start">366574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">382935 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

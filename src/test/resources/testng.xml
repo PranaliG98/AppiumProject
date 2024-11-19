@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Test Suite">
+    <test name="Appium Tests">
+        <classes>
+            <class name="pranaligondchawar.appiumtest.LoginTest"/>
+            <class name="pranaligondchawar.appiumtest.FoodSearchTest"/>
+            <class name="pranaligondchawar.appiumtest.AddToCartTest"/>
+            <class name="pranaligondchawar.appiumtest.RestuarantSearchTest"/>
+        </classes>
+    </test>
+</suite>
